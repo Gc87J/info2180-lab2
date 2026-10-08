@@ -1,16 +1,44 @@
  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: bisque;
+  margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     
 
+   }
+  .grid-container{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "aside main main"
+    "footer footer footer";
+ 
+  }
+
+  .grid-header{
+    background-color: #1de953;
+    grid-area: header;
+  }
+  
+  .grid-aside{
+    background-color: #ffffff;
+    grid-area: aside; 
+   }
+
+  .grid-main{
+    background-color: #ffffff;
+    grid-area: main;
+  }
+  
+  .grid-footer{
+    background-color: #1de953;
+    grid-area: footer;
   }
 
   .main-img{
     height: 100px;
     width: 100px;
     border-radius: 50px;
-  }
+  } 
