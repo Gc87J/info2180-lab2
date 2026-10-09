@@ -18,8 +18,18 @@
   }
 
   .grid-header{
-    background-color: #1de953;
+    background-color: #3C8527;
+    color: #ffffff;
     grid-area: header;
+    font-family: Trebuchet MS, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .grid-header p {
+    font-weight: 100;
   }
   
   .grid-aside{
@@ -33,8 +43,13 @@
   }
   
   .grid-footer{
-    background-color: #1de953;
+    background-color: #28651C ;
+    color: #ffffff;
     grid-area: footer;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
   }
 
   .main-img{
