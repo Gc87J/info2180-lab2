@@ -33,12 +33,14 @@
   }
   
   .grid-aside{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     grid-area: aside; 
    }
 
+  .grid-aside 
+
   .grid-main{
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
     grid-area: main;
   }
   
